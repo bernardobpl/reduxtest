@@ -1,0 +1,58 @@
+#root {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  background-color: #deb887;
+  margin-right: 20px;
+  height: fit-content;
+  cursor: pointer;
+}
+
+.list ul li:hover {
+  cursor: pointer;
+  background-color: #f2cb9a;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.btns-div {
+  display: flex;
+}
+
+.btns-div button {
+  padding: 5px;
+  background-color: transparent;
+  margin-right: 20px;
+}
+
+.btns-div button:hover {
+  color: #FFF;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.ul-pets li, .ul-pets {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.wrapper-tela2{
+  display: flex;
+}
+
+.list2-div {
+  margin-right: 50px;
+}
